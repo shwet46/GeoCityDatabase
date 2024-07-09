@@ -11,6 +11,8 @@ class Hero extends PureComponent {
 
     render() {
         return (
+          <>
+          <div style={{ display: 'flex', justifyContent: 'center', alignItems: 'center', height: '80vh' }}>
             <div className="flex max-w-fit flex-col items-center justify-center md:flex-row  ps-20 mt-8 max-md:ps-4 max-md:mt-6">
             
             <div>
@@ -35,6 +37,8 @@ class Hero extends PureComponent {
               />
             </div>
           </div>
+          </div>
+          </>
            
         )
     }

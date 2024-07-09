@@ -13,14 +13,14 @@ class Services extends PureComponent {
         return (
           <>
 
-            
+          <div style={{ display: 'flex', justifyContent: 'center', alignItems: 'center', height: '80vh' }}> 
 
-            
-
-          <div className="flex flex-row max-w-fit max-md:flex-col">  
+          <div className="Services">
+          <div className="flex flex-row max-w-fit max-md:flex-col">
           <h1 className="my-6 mr-40 max-md:mr-2 text-3xl ps-20 max-md:ps-8 max-md:text-2xl font-semibold">
-            Our Sevices
+            Our Services
           </h1>
+
           </div>
 
           <div className="flex flex-row max-md:flex-col">
@@ -65,6 +65,8 @@ class Services extends PureComponent {
             Read More</button>
             </div>
           </div>   
+          </div>
+          </div>
           </div>
           </> 
         )
