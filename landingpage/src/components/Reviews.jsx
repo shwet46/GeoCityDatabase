@@ -12,7 +12,7 @@ class Reviews extends PureComponent {
     render() {
         return (
             <>
-            <div class="flex flex-row max-md:flex-col bg-white py-8 ">
+            <div class="flex flex-row max-md:flex-col font-reg tracking-wide bg-white py-8 ">
                 <div class="ml-28 max-md:ml-6 max-md:mr-6 mr-10">
                 <div className="flex flex-row content-center justify-center">
                     <img width="20" height="20" src="https://img.icons8.com/color/48/000000/filled-star--v1.png" alt="filled-star--v1"/>

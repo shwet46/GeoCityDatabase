@@ -12,12 +12,12 @@ class Description extends PureComponent {
     render() {
         return (
            <>
-           <div className="flex mt-10 justify-between mx-28 max-md:mx-4">
+           <div className="flex mt-10 justify-between font-reg mx-28 max-md:mx-4">
                 <h1 className="text-3xl text-semibold max-md:text-xl">Description</h1>
                 <button className="btn max-md:hidden btn-primary shadow-sm  bg-sky-700 px-4 py-3 text-white rounded-md text-xs my-3 hover:bg-green-600/80 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-black">View all services</button>
            </div>
            <div class="flex mt-8 max-md:mt-4 max-md:mx-2 mx-28 text-left ">
-            <p className="text-slate-600 tracking-wide leading-relaxed text-sm max-md:text-xs">
+            <p className="text-slate-600 tracking-wide leading-relaxed text-sm font-reg max-md:text-xs">
                 At GeoCityDatabase, we understand the importance of accurate and comprehensive data for your business decisions. Our data sourcing service is designed to help you access the most relevant and up-to-date information for your research and analysis needs. 
                 <br />
                 We offer a range of data sourcing services, including web scraping, data extraction, text mining, and more. Our team of experts have extensive experience in sourcing data from various sources, including websites, social media and other digital platforms. We use the latest technologies and tools to ensure that the data we provide is accurate, reliable and complete. 
@@ -36,9 +36,9 @@ class Description extends PureComponent {
             </p>
            </div>
 
-           <div className="flex flex-row max-md:flex-col max-md:mx-2 max-md:my-4 mx-36  my-14">
+           <div className="flex flex-row max-md:flex-col tracking-wide font-reg max-md:mx-2 max-md:my-4 mx-36  my-14">
             <div className="text-left max-md:mx-0 mx-20">
-                <h2 className="text-lg font-semibold">Key Points</h2>
+                <h2 className="text-lg font-medium">Key Points</h2>
                 <ul className="list-disc mt-4 max-md:mt-2 max-md:text-xs text-sm text-slate-600 ">
                     <li>Comprehensive Data Sourcing</li>
                     <li className="mt-2">City Characteristic Database</li>
@@ -48,7 +48,7 @@ class Description extends PureComponent {
                 </ul>
             </div>
             <div className=" text-left max-md:text-left max-md:mx-2 mx-20 w-[200px] max-md:w-[160px] max-md:mt-4">
-            <h2 className="text-lg font-semibold">User testimonal</h2>
+            <h2 className="text-lg font-medium">User testimonal</h2>
             <h2 className="text-base max-md:text-sm font-semibold capitalize mt-4 max-md:mt-2 text-sky-600">Jessica Simon</h2>
             <p className="text-sm max-md:text-xs text-balance text-slate-600 leading-2 max-mx:mt-2 mt-4">
                 As an academic, I rely on GeoCityDatabase's comprehensive city characteristic database for my research. Thier platform is user-friendly and prodives easy access to valuable information.
@@ -65,7 +65,7 @@ class Description extends PureComponent {
             </div>
 
 
-            <div class="flex flex-row max-md:flex-col py-4 ">
+            <div class="flex font-reg tracking-wide flex-row max-md:flex-col py-4 ">
                 <div class="ml-28 max-md:ml-6 max-md:mr-6 mr-10">
                     <div className="flex flex-row content-center justify-center">
                     <img width="20" height="20" src="https://img.icons8.com/color/48/000000/filled-star--v1.png" alt="filled-star--v1"/>

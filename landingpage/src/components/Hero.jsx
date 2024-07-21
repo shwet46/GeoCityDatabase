@@ -11,14 +11,14 @@ class Hero extends PureComponent {
 
     render() {
         return (
-            <div className="flex max-w-fit flex-col items-center justify-center md:flex-row  ps-20 mt-8 max-md:ps-4 max-md:mt-6">
+            <div className="flex max-w-fit max-md:text-center flex-col items-center justify-center md:flex-row  ps-20 mt-8 max-md:ps-4 max-md:mt-6">
             
             <div>
               <div className="md:w-[500px]">
-                <h1 className="inline-flex items-center text-5xl font-semibold max-md:text-2xl max-md:mt-4 max-md:mx-2">
+                <h1 className="inline-flex items-center text-5xl font-email font-semibold max-md:text-2xl max-md:mt-4 max-md:mx-2">
                   Comprehensive City Characteristics Database
                 </h1>
-                <p className="mt-8 text-sm text-gray-600 max-md:text-xs max-md:mt-4 max-md:mx-2 ">
+                <p className="mt-8 text-sm font-reg text-gray-600 max-md:text-xs max-md:mt-4 max-md:mx-2 ">
                   GeoCityDatabase simplifies access to a comprehensive city characteristic database, offering information on various nations and regions worldwide. Our platform is an excellent resource for academics, analysts, and others seeking accurate and current information worldwide.
                 </p>
                 <div className="mt-4 max-md:mt-2">
